@@ -75,5 +75,6 @@
 (dolist (hook '(term-mode-hook shell-mode-hook eshell-mode-hook ))
   (add-hook hook 'shell-pack/fix-tab-hook))
 
-(provide 'shell-pack)
+;(provide 'shell-pack)
+
 ;;; shell-pack.el ends here
